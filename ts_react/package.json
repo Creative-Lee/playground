@@ -1,0 +1,13 @@
+{
+  "name": "ts_react",
+  "version": "1.0.0",
+  "description": "TS + react 환경",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Creative-Lee",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^3.1.0"
+  }
+}
