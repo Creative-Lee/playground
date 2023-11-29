@@ -12,7 +12,7 @@ const prod = merge(common, {
   },
   module: {},
   plugins: [],
-
+  devtool: 'false',
   optimization: {
     minimizer: [
       new EsbuildPlugin({
