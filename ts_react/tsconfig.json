@@ -6,8 +6,9 @@
     "jsx": "react-jsx",
 
     /* Modules */
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
+    "module": "ESNext",
+
+    "moduleResolution": "Bundler",
     "resolveJsonModule": true,
 
     /* JavaScript Support */
@@ -20,10 +21,13 @@
     "isolatedModules": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
 
     /* Type Checking */
     "strict": true,
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true
-  }
+  },
+
+  "include": ["src"]
 }
